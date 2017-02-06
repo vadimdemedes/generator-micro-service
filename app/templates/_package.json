@@ -1,0 +1,32 @@
+{
+  "name": "<%= appName %>",
+  "version": "1.0.0",
+  "description": "<%= description %>",
+  "author": "<%= name %> <<%= email %>>",
+  "repository": "<%= username %>/<%= appName %>",
+	"license": "MIT",
+  "scripts": {
+    "start": "micro",
+    "test": "xo && ava"
+  },
+  "engines": {
+    "node": ">= 6"
+  },
+  "files": [
+    "index.js"<% if (cli) { %>,
+    "cli.js"<% } %>
+  ],<% if (cli) { %>
+  "bin": "cli.js",<% } %>
+  "main": "index.js",
+  "dependencies": {
+    "micro": "^7.0.0"<% if (cli) { %>,
+    "update-notifier": "^1.0.3"<% } %>
+  },
+  "devDependencies": {
+    "async-to-gen": "^1.3.2",
+    "ava": "^0.18.1",
+    "got": "^6.7.1",
+    "test-listen": "^1.0.1",
+    "xo": "^0.17.1"
+  }
+}
