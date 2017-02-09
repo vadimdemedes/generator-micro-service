@@ -6,11 +6,11 @@
 
 ## Features
 
-- Uses [micro](https://github.com/zeit/micro)
-- Sets up testing with [AVA](https://ava.li)
-- Lints using [xo](https://github.com/sindresorhus/xo)
-- Writes a nice readme with buttons for instant deployment to [now](https://zeit.co/now)
-- Can optionally generate a CLI
+- <img src="https://cdn.rawgit.com/zeit/art/master/micro/logo-vector.svg" width="16">&nbsp; Build using [micro](https://github.com/zeit/micro)
+- 🚀 Test with [AVA](https://ava.li)
+- ❤️ Lint using [xo](https://github.com/sindresorhus/xo)
+- 📜 Get a readme with buttons for instant deployment to [now](https://zeit.co/now)
+- 💲 Generate a CLI (optional)
 
 
 ## Installation
