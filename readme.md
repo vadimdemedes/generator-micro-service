@@ -13,9 +13,6 @@
 - 💲 Generate a CLI (optional)
 
 
-TEST
-
-
 ## Installation
 
 First, install [Yeoman](http://yeoman.io) and generator-micro-service using [npm](https://www.npmjs.com/) (we assume you have pre-installed [node.js](https://nodejs.org/)).
