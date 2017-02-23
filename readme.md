@@ -8,7 +8,7 @@
 
 - <img src="https://cdn.rawgit.com/zeit/art/master/micro/logo-vector.svg" width="16">&nbsp; Build using [micro](https://github.com/zeit/micro)
 - 🚀 Test with [AVA](https://ava.li)
-- ❤️ Lint using [xo](https://github.com/sindresorhus/xo)
+- ❤️ Lint using [XO](https://github.com/sindresorhus/xo)
 - 📜 Get a readme with buttons for instant deployment to [now](https://zeit.co/now)
 - 💲 Generate a CLI (optional)
 
